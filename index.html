@@ -23,19 +23,19 @@
     <main>
       <form action="" id="survey-form">
         <div class="col1">
-          <label id="name-label" for="name">Name</label>
+          <label id="name-label" for="name">Name:</label>
         </div>
         <div class="col2">
           <input type="text" id="name" placeholder="name" required />
         </div>
         <div class="col1">
-          <label for="email" id="email-label">Email</label>
+          <label for="email" id="email-label">Email:</label>
         </div>
         <div class="col2">
           <input type="email" id="email" placeholder="email" required />
         </div>
         <div class="col1">
-          <label for="number" id="number-label">Age</label>
+          <label for="number" id="number-label">Age:</label>
         </div>
         <div class="col2">
           <input type="number" id="number" min="1" max="99" placeholder="age" />
@@ -49,7 +49,13 @@
         </div>
         <div class="col2"></div>
         <div class="col1">
-          <input type="radio" name="radio-group" id="radio1" value="radio1" />
+          <input
+            type="radio"
+            name="radio-group"
+            id="radio1"
+            value="radio1"
+            checked
+          />
           <label for="radio1">Radio1</label>
           <input type="radio" name="radio-group" id="radio2" value="radio2" />
           <label for="radio2">Radio2</label>
@@ -61,6 +67,7 @@
             name="checkbox-group"
             id="checkbox1"
             value="checkbox1"
+            checked
           />
           <label for="checkbox1">Checkbox 1</label>
           <br />
